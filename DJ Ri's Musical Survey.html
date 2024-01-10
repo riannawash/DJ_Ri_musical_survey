@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>DJ Ri's Musical Survey</title>
+  </head>
+  <body>
+    <h1 id="title">DJ Ri's Musical Survey</h1>
+    <p id="description">Hi there! My name is DJ Ri and I run a radio station. I am curious to know what kind of music people are into these days. Thanks for taking the time to fill out my survey!</p>
+  <form id="survey-form">
+    <label id="name-label">Nickname: <input type="text" id="name" placeholder="Enter your nickname" required /></label><br>
+    <label id="email-label">Email: <input type="email" id="email" placeholder="Email please" required/></label><br>
+    <label id="number-label">Age: <input type="number" id="number" placeholder="Enter your age" min="1" max="9999999999999" /></label><br>
+    <label>How often do you listen to music? (Choose most applicable) <br>
+      <select id="dropdown">
+        <option>Several times a day/All day everyday</option>
+        <option>At least once a day</option>
+        <option>A couple times a week</option>
+        <option>A couple times a month</option>
+        <option>I couldn't even recall the last time</option>
+      </select>
+    </label><br><br>
+    <legend>Do you listen to music alone or with others? (most applicable)</legend><br>
+      <label><input type="radio" id="alone" name="alone-others" value="alone">Alone</label>
+    <label><input type="radio" id="others" name="alone-others" value="others">Others</label>
+    <br><br>
+   <legend>What are your favorite genres? (pick two)</legend><br>
+    <input type="checkbox" id="genre1" name="genre1" value="rock">
+    <label for="rock"> Rock</label><br>
+    <input type="checkbox" id="genre2" name="genre2" value="Hip-Hop/Rap">
+    <label for="genre2"> Hip-Hop/Rap</label><br>
+    <input type="checkbox" id="genre3" name="genre3" value="r&b/soul">
+    <label for="genre3"> R&B/Soul</label><br>
+    <input type="checkbox" id="genre4" name="genre4" value="indie/alternative">
+    <label for="genre4"> Indie/Alternative</label><br>
+    <input type="checkbox" id="genre5" name="genre5" value="pop">
+    <label for="genre5"> Pop</label><br>
+    <input type="checkbox" id="genre6" name="genre6" value="blues/jazz">
+    <label for="genre6"> Blues/Jazz</label><br>
+    <input type="checkbox" id="genre7" name="genre7" value="other">
+    <label for="genre7"> Other</label><br><br>
+    <label>Feel free to tell me more about your musical interests and background! <textarea name="comment">Tell us more...</textarea>
+    <input type="submit" value="Submit" id="submit"/>
+  </form>
+  </body>
+</html>
