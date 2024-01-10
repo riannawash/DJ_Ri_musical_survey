@@ -9,6 +9,6 @@ To participate in DJ Ri's Musical Survey, open the `index.html` file in your web
 
 ## License
 
-This project was created using[freeCodeCamp.org](https://www.freecodecamp.org).
+This project was created using [freeCodeCamp.org](https://www.freecodecamp.org).
 
 Enjoy.
